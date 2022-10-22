@@ -204,6 +204,9 @@ margin-bottom: 0px;
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
 }
 
 p {
@@ -504,3 +507,57 @@ margin-right: 8px;
 }
 
 /* HW - 04 */
+
+.icons-under-header-container {
+max-width: 1200px;
+display: flex;
+  justify-content: center;  
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-top: 94px;
+
+}
+
+.icons-list {
+ gap: 30px;
+ 
+ 
+  
+  
+ }
+
+.icons-under-header-figure {
+  display: flex;
+  height: 120px;
+  width: 270px;
+  background-color: #F5F4FA;
+  
+}
+
+
+
+
+.section-our-clients {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;  
+  margin: 0 auto;
+  padding: 94px 15px;
+ 
+
+}
+
+.icons-list.our-clients {
+
+}
+
+.icons-our-clients-figure {
+  display: flex;
+  height: 92px;
+  width: 170px;
+
+}
+
+svg.icon {
+  margin: auto auto;
+} 
