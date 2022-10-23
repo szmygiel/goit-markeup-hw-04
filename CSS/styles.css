@@ -166,14 +166,12 @@ margin-bottom: 0px;
 }
 
 .section-main-title.background {
-background-image: url(../images/Background-header.jpg);  
 max-width: 1600px;
-
-
+background-image: linear-gradient(to top, rgb(47, 48, 58, 0.4), 
+rgb(47, 48, 58, 0.4)), url(/images/Background-header.jpg);
 }
 
 .section-main-title {
-  background-color: var(--header-footer-color);
   text-align: center;
   height: 600px; 
   margin-top: 0px;
@@ -478,6 +476,10 @@ figure.portfolio-figure {
   box-shadow: none;
 }
 
+figure.portfolio-figure:hover {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);  
+}
+
 .figcaption-portfolio {
 font-size: 16px;
 font-weight: 400;
@@ -550,9 +552,14 @@ margin-right: 8px;
   line-height: 26px;
   letter-spacing: 0.03em;
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 1px 2px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+
+
 }
 
-/* HW - 04 */
+/* icons- SVG */
 
 .icons-under-header-container {
 max-width: 1200px;
@@ -574,6 +581,7 @@ display: flex;
   height: 120px;
   width: 270px;
   background-color: #F5F4FA;
+  box-shadow: none;
   
 }
 
