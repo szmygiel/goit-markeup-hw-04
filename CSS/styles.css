@@ -150,6 +150,14 @@ max-width: 1200px;
 margin: 0px auto; 
 text-align: center;
 margin-bottom: 0px;
+
+}
+
+.section-main-title.background {
+background-image: url(../images/Background-header.jpg);  
+max-width: 1600px;
+
+
 }
 
 .section-main-title {
@@ -159,10 +167,10 @@ margin-bottom: 0px;
   margin-top: 0px;
   border: 0.1px solid; 
   padding: 0px;
+ 
 } 
 
 .main-title {
-  background-color: var(--header-footer-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
@@ -173,6 +181,7 @@ margin-bottom: 0px;
   color: white;
   width: 696px;
   height: 120px;
+  
 }
 
 .button-header {
