@@ -59,8 +59,9 @@ margin: 0px;
 box-sizing: border-box;
 height: 80px;
 padding: 0px;
-margin-left: 140px;
+margin-left: 130px;
 }
+
 
 .menu {
 display: flex;
@@ -102,12 +103,23 @@ margin-left: 93px;
 
 .link-mail {
 margin-right: 50px;  
+margin-left :10px;
 }
 
+/* .link-mail::before {
+  display: inline-block;
+  content: "";
+  background-image: url(/images/icons.svg#icon-ig);
+  width: 16px;
+  height: 12px;
+  --color1:#212121;
+} */
+
 .link-tel {
-margin-left: 0px;
+margin-left: 10px;
 margin-right: 0px;
 }
+
 
 .section-team {
 background-color: #F5F4FA;
@@ -413,6 +425,31 @@ margin-bottom: 9px;
   color: var(--interactive-elements-color);
 }
 
+.social-footer-wrapper {
+  margin-left: 70px;
+}
+.footer-p {
+  text-transform: uppercase;
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: white;
+}
+
+.icon.social-footer {
+--color1: white;
+--color2:rgba(255, 255, 255, 0.1); 
+
+}
+.icon.social-footer:hover,
+.icon.social-footer:focus {
+  color:var(--interactive-elements-color);
+  --color2:var(--interactive-elements-color);
+  --color1:white;
+}
 
 /* ________________________PORTFOLIO_____________________________ */
 
@@ -529,9 +566,6 @@ display: flex;
 
 .icons-list {
  gap: 30px;
- 
- 
-  
   
  }
 
@@ -544,8 +578,6 @@ display: flex;
 }
 
 
-
-
 .section-our-clients {
   max-width: 1200px;
   display: flex;
@@ -556,8 +588,8 @@ display: flex;
 
 }
 
-.icons-list.our-clients {
-
+ul.list.social-icons {
+  padding-bottom: 30px;
 }
 
 .icons-our-clients-figure {
@@ -570,3 +602,37 @@ display: flex;
 svg.icon {
   margin: auto auto;
 } 
+
+.list.social-icons {
+  display: flex;
+  justify-content: center;  
+  gap: 11px;
+}
+
+
+.icon.social-our-team:hover,
+.icon.social-our-team:focus {
+  color:var(--interactive-elements-color);
+  --color2:var(--interactive-elements-color);
+  --color1:white;
+}
+
+.icon.our-clients:hover,
+.icon.our-clients:focus {
+color:var(--interactive-elements-color);
+--color1:var(--interactive-elements-color);
+  border:#2196f3;
+ 
+}
+
+figure.icons-our-clients-figure {
+background-color: white;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+box-shadow: none;
+}
+
+figure.icons-our-clients-figure:hover {
+  border: 1px solid #2196f3;
+}
+
