@@ -109,9 +109,6 @@ align-items: center;
   color: var(--interactive-elements-color);
 }
 
-.link-contacts:hover {
-  color: var(--interactive-elements-color);
-}
 
 .link-mail {
 margin-right: 50px;  
